@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jSResultado" alignment="1" min="-2" pref="526" max="-2" attributes="0"/>
+                          <Component id="jPanelNumeros" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jBVerificarAcertos" max="32767" attributes="0"/>
+                          <Component id="jBJogar" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="34" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Component id="jBVerificarAcertos" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jBJogar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelNumeros" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jSResultado" pref="112" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="7653 Jogo dos n&#xfa;meros"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanelNumeros">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Marque entre 6 e 10 n&#xfa;meros"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jTB1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jTB2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jTB31" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jTB32" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jTB11" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jTB12" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jTB21" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jTB22" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jTB41" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jTB42" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jTB23" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jTB24" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jTB3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTB4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTB14" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jTB13" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jTB33" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jTB34" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jTB43" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jTB44" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jTB15" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jTB16" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTB17" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jTB5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jTB6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTB7" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jTB25" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jTB26" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jTB35" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTB45" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jTB46" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTB36" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTB27" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTB37" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jTB47" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jTB8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTB9" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTB10" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTB18" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTB28" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTB38" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTB48" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="jTB29" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTB30" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jTB19" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTB20" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jTB39" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jTB40" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jTB49" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jTB50" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jTB2" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB3" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB6" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB7" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB4" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB5" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB8" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB9" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB10" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB1" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jTB17" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB18" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB12" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB11" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB13" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB16" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB14" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB15" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB19" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB20" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jTB24" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB29" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB27" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB30" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB28" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB22" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB21" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB23" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB26" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB25" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jTB34" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB32" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB31" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB33" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB36" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB37" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB39" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB38" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="jTB40" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB35" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jTB44" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB50" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB48" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB42" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB41" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB43" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB46" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB47" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB49" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="jTB45" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JToggleButton" name="jTB1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="01"/>
+            <Property name="actionCommand" type="java.lang.String" value="1"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="02"/>
+            <Property name="actionCommand" type="java.lang.String" value="2"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="03"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="04"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="05"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="06"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="07"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="08"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="09"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="10"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="11"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="12"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="13"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB14">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="14"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="15"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB16">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="16"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB17">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="17"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB18">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="18"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB19">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="19"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB20">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="20"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB21">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="21"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB22">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="22"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB23">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="23"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB24">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="24"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB25">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="25"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB26">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="26"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB27">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="27"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB28">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="28"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB29">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="29"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB30">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="30"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB31">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="31"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB32">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="32"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB33">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="33"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB34">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="34"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB35">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="35"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB36">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="36"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB37">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="37"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB38">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="38"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB39">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="39"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB40">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="40"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB41">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="41"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB42">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="42"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB43">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="43"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB44">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="44"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB45">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="45"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB46">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="46"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB47">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="47"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB48">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="48"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB49">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="49"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jTB50">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="50"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seleciona"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jBVerificarAcertos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Verificar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBVerificarAcertosActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBJogar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jogar novamente"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBJogarActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jSResultado">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTResultado">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
